@@ -1,11 +1,22 @@
 /* Color Palette:
-Light Shades: #fcfcfd;
-Light Accent: #ebc06c;
-Main Brand Color: #e96663;
-Dark Accent: #aaacb3;
-Dark Shades: #475671;
+Light Shades: #F2EDDB;
+Light Accent: #DCA27E;
+Main Brand Color: #9D839F;
+Dark Accent: #9877A0;
+Dark Shades: #1A0E1C;
 */
 
+header {
+    background-color: #1A0E1C;
+}
 * {
     box-sizing: border-box;
+}
+
+.Fortnie {
+    color: #F0EFE9;
+}
+
+.name {
+    color: #F2EDDB;
 }
