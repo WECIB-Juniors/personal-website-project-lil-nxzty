@@ -6,9 +6,7 @@ Dark Accent: #9877A0;
 Dark Shades: #1A0E1C;
 */
 
-header {
-    background-color: #1A0E1C;
-}
+
 * {
     box-sizing: border-box;
 }
@@ -18,5 +16,21 @@ header {
 }
 
 .name {
+    color: #FCF8F0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size: xx-large;
+}
+
+.smalltitle {
     color: #F2EDDB;
+    font-size: large;
+}
+
+.bigtitle {
+    color: #F2EDDB;
+    font-size: x-large;
+    font-family: ;
 }
