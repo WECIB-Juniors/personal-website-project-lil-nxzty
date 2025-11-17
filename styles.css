@@ -9,28 +9,42 @@ Dark Shades: #1A0E1C;
 
 * {
     box-sizing: border-box;
+    background-color: #F9FAFB;
 }
 
 .Fortnie {
-    color: #F0EFE9;
+    color: #1C1C1E;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .name {
-    color: #FCF8F0;
+    color: #FF6F61;
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-    font-size: xx-large;
+    font-size: 35px;
 }
 
 .smalltitle {
-    color: #F2EDDB;
+    color: #1C1C1E;
     font-size: large;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .bigtitle {
-    color: #F2EDDB;
+    color: #1C1C1E;
     font-size: x-large;
-    font-family: ;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
+/* light blue for stuff: 3ABEFF*/
