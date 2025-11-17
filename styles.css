@@ -12,38 +12,43 @@ Dark Shades: #1A0E1C;
     background-color: #F9FAFB;
 }
 
-.Fortnie {
-    color: #1C1C1E;
-    font-family: "Inter", sans-serif;
+.normal {
+  color: #1C1C1E;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
+img {
+  border-radius: 25%;
+  width: 100px;
+}
 .name {
-    color: #FF6F61;
-    font-family: "Montserrat", sans-serif;
+  color: #FF6F61;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 750;
   font-style: normal;
-    font-size: 35px;
+  font-size: 35px;
+  display: inline-block;
 }
 
 .smalltitle {
-    color: #1C1C1E;
-    font-size: large;
-    font-family: "Inter", sans-serif;
+  color: #1C1C1E;
+  font-size: large;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
 }
 
 .bigtitle {
-    color: #1C1C1E;
-    font-size: x-large;
-    font-family: "Inter", sans-serif;
+  color: #1C1C1E;
+  font-size: x-large;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
 }
 
