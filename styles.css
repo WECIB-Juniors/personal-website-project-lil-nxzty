@@ -9,29 +9,67 @@ Dark Shades: #1A0E1C;
 
 * {
     box-sizing: border-box;
+}
+
+body {
     background-color: #F9FAFB;
+    margin: 20px;
 }
 
-.normal {
-  color: #1C1C1E;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+header {
+    margin-bottom: 30px;
 }
 
-img {
-  border-radius: 25%;
+.profile-pic {
+  border-radius: 15%;
   width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-left: 15px;
 }
+
 .name {
-  color: #FF6F61;
+  color: #00073f;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 750;
   font-style: normal;
   font-size: 35px;
   display: inline-block;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b5c7eb;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #603fef;
+}
+
+.normal {
+  color: #1C1C1E;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .smalltitle {
@@ -48,8 +86,12 @@ img {
   font-size: x-large;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 650;
   font-style: normal;
+}
+
+section {
+    margin-bottom: 30px;
 }
 
 /* light blue for stuff: 3ABEFF*/
