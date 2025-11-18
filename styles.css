@@ -9,42 +9,123 @@ Dark Shades: #1A0E1C;
 
 * {
     box-sizing: border-box;
-    background-color: #F9FAFB;
 }
 
-.Fortnie {
-    color: #1C1C1E;
-    font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+    background-color: #F9FAFB;
+    margin: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .name {
-    color: #FF6F61;
-    font-family: "Montserrat", sans-serif;
+  color: #00073f;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 750;
   font-style: normal;
-    font-size: 35px;
+  font-size: 35px;
+  display: inline-block;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b5c7eb;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #603fef;
+}
+
+.normal {
+  color: #1C1C1E;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .smalltitle {
-    color: #1C1C1E;
-    font-size: large;
-    font-family: "Inter", sans-serif;
+  color: #1C1C1E;
+  font-size: large;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
 }
 
 .bigtitle {
-    color: #1C1C1E;
-    font-size: x-large;
-    font-family: "Inter", sans-serif;
+  color: #1C1C1E;
+  font-size: x-large;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 650;
   font-style: normal;
 }
 
-/* light blue for stuff: 3ABEFF*/
+section {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+}
+
+.left {
+    width: 16.665%;
+    padding: 15px;
+    background-color: #9edfc9;
+}
+
+.middle {
+    width: 66.66%;
+    padding: 15px;
+    background-color: #FAE4D5;
+}
+
+.right {
+    width: 16.665%;
+    padding: 15px;
+    background-color: #E0778D;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .left, .middle, .right {
+        width: 100%;
+    }
+}
+
+.didle {
+    font-weight: 350;
+}
