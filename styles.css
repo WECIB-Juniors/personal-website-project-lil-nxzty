@@ -21,11 +21,7 @@ header {
 }
 
 .profile-pic {
-<<<<<<< HEAD
   border-radius: 50%;
-=======
-  border-radius: 15%;
->>>>>>> 60a72d3657c006c8ec6cc5efe5e76d5552382ee6
   width: 100px;
   height: 100px;
   display: inline-block;
@@ -98,7 +94,6 @@ section {
     margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
 .container {
     display: flex;
     align-items: stretch;
@@ -134,6 +129,3 @@ section {
 .didle {
     font-weight: 350;
 }
-=======
-/* light blue for stuff: 3ABEFF*/
->>>>>>> 60a72d3657c006c8ec6cc5efe5e76d5552382ee6
